@@ -1,4 +1,4 @@
-FROM golang:1.19.1-alpine3.16@sha256:d475cef843a02575ebdcb1416d98cd76bab90a5ae8bc2cd15f357fc08b6a329f AS builder
+FROM golang:1.19.2-alpine3.16@sha256:f3e683657ddf73726b5717c2ff80cdcd9e9efb7d81f77e4948fada9a10dc7257 AS builder
 ARG VERSION=dev-snapshot
 RUN mkdir /build
 RUN apk add --update make
